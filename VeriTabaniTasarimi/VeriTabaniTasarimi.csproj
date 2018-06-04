@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B74D4CB5-C2C9-454F-9DC2-D3A1FDC9F414}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VeriTabaniTasarimi</RootNamespace>
+    <AssemblyName>VeriTabaniTasarimi</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BeslenmeProgramı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeslenmeProgramı.Designer.cs">
+      <DependentUpon>BeslenmeProgramı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMIHesapla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMIHesapla.Designer.cs">
+      <DependentUpon>BMIHesapla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="diyetisyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diyetisyen.Designer.cs">
+      <DependentUpon>diyetisyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorGüncelle.Designer.cs">
+      <DependentUpon>DoktorGüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doktorSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doktorSayfasi.Designer.cs">
+      <DependentUpon>doktorSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doktorUye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doktorUye.Designer.cs">
+      <DependentUpon>doktorUye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beslenme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beslenme.Designer.cs">
+      <DependentUpon>Beslenme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hastalarim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hastalarim.Designer.cs">
+      <DependentUpon>Hastalarim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iletisim.Designer.cs">
+      <DependentUpon>iletisim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kontrol.Designer.cs">
+      <DependentUpon>kontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciGuncelle.Designer.cs">
+      <DependentUpon>KullaniciGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciSayfasi.Designer.cs">
+      <DependentUpon>KullaniciSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullanıcıUye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullanıcıUye.Designer.cs">
+      <DependentUpon>kullanıcıUye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kunye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kunye.Designer.cs">
+      <DependentUpon>Kunye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parola.Designer.cs">
+      <DependentUpon>Parola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secim.Designer.cs">
+      <DependentUpon>Secim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yardım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yardım.Designer.cs">
+      <DependentUpon>Yardım.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BeslenmeProgramı.resx">
+      <DependentUpon>BeslenmeProgramı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMIHesapla.resx">
+      <DependentUpon>BMIHesapla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diyetisyen.resx">
+      <DependentUpon>diyetisyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorGüncelle.resx">
+      <DependentUpon>DoktorGüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doktorSayfasi.resx">
+      <DependentUpon>doktorSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doktorUye.resx">
+      <DependentUpon>doktorUye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beslenme.resx">
+      <DependentUpon>Beslenme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hastalarim.resx">
+      <DependentUpon>Hastalarim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iletisim.resx">
+      <DependentUpon>iletisim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kontrol.resx">
+      <DependentUpon>kontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciGuncelle.resx">
+      <DependentUpon>KullaniciGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciSayfasi.resx">
+      <DependentUpon>KullaniciSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullanıcıUye.resx">
+      <DependentUpon>kullanıcıUye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kunye.resx">
+      <DependentUpon>Kunye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parola.resx">
+      <DependentUpon>Parola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Secim.resx">
+      <DependentUpon>Secim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yardım.resx">
+      <DependentUpon>Yardım.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word1">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lotus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beslenme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barbell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_158631798_CgJN4MESN3E3958JP3TLtCtuHe6PzMs1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hands-medical-doctor-over-blue-background-31414439.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estetoscopio-e-espaco-para-copia_23-2147652347.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5157ab1c2b4cbdf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-350-498617.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,41 @@
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\bin\Debug\VeriTabaniTasarimi.exe.config
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\bin\Debug\VeriTabaniTasarimi.exe
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\bin\Debug\VeriTabaniTasarimi.pdb
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.csprojResolveAssemblyReference.cache
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.diyetisyen.resources
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.doktorUye.resources
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Properties.Resources.resources
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.csproj.GenerateResource.Cache
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.exe
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.pdb
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.kullanıcıUye.resources
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.giris.resources
+c:\users\windows10.desktop-js32q9i\documents\visual studio 2015\Projects\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Parola.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\bin\Debug\VeriTabaniTasarimi.exe.config
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\bin\Debug\VeriTabaniTasarimi.exe
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\bin\Debug\VeriTabaniTasarimi.pdb
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.csprojResolveAssemblyReference.cache
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.diyetisyen.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.doktorUye.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.giris.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.kullanıcıUye.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Parola.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Properties.Resources.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.csproj.GenerateResource.cache
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.csproj.CoreCompileInputs.cache
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.exe
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.pdb
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.doktorSayfasi.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.kontrol.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Hastalarim.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.KullaniciSayfasi.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.DoktorGüncelle.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Secim.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.BeslenmeProgramı.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.csproj.ResolveComReference.cache
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.iletisim.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.BMIHesapla.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Kunye.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Beslenme.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.KullaniciGuncelle.resources
+C:\Users\eakku\Desktop\VeriTabaniTasarimi\VeriTabaniTasarimi\obj\Debug\VeriTabaniTasarimi.Yardım.resources
